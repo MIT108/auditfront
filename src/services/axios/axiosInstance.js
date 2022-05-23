@@ -7,7 +7,7 @@ import {
 } from '../../store/storeConstants';
 
 const axiosInstance = Axios.create({
-    baseURL: 'http://localhost:8001/api'
+    baseURL: 'http://misceo.mitdev.tech:8003/api'
 })
 
 axiosInstance.interceptors.request.use((config) => {
